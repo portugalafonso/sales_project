@@ -25,6 +25,14 @@ gem 'jbuilder', '~> 2.7'
 #rails admin
 gem 'rails_admin'
 
+# Autentica;ao
+gem 'devise'
+
+# autorizacao
+ 
+gem 'cancancan', '~> 1.15.0'
+
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
