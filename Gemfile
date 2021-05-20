@@ -29,8 +29,8 @@ gem 'rails_admin'
 gem 'devise'
 
 # autorizacao
- 
-gem 'cancancan', '~> 1.15.0'
+
+gem 'cancancan', '~> 3.2.1'
 
 
 # Use Active Storage variant
