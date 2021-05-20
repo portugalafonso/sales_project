@@ -10,4 +10,12 @@ class User < ApplicationRecord
     has_many :clients
     has_many :product_quantities
     has_many :sales
+
+  before_create :defaults
+
+  private
+
+  def defaults
+    self.kind = :salesman unless self.kind.present?
   end
+end
